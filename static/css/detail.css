@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 100%;
+    /*height: 100%;*/
+}
+.box .header{
+    width: 80%;
+    height: 50px;
+    margin: 25px auto;
+}
+.box .header .logo{
+    float: left;
+}
+.box .header .auth{
+    float: right;
+}
+.box .header .auth ul li{
+    display: inline-block;
+    margin-right: 50px;
+    line-height: 50px;
+}
+.box .header .auth ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.box .content{
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+}
+.box .content .content-left{
+    flex: 3;
+}
+.box .content .content-left .image{
+    width: 100%;
+    height: 100%;
+}
+.box .content .content-right{
+    flex: 2;
+    height: 100%;
+    background-color: #464B47;
+    color: #ffffff;
+}
+.box .content .content-right .rig-top{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(7,17,27,0.1);
+}
+.box .content .content-right .rig-top .title{
+    font-size: 24px;
+    margin-top: 50px;
+}
+.box .content .content-right .rig-top .username{
+    margin-top: 40px;
+}
+.box .content .content-right .rig-top .time{
+    margin-top: 20px;
+}
+.box .content .content-right .rig-top .text{
+    margin-top: 20px;
+    padding-bottom: 30px;
+    height: 120px;
+    overflow: hidden;
+}
+.box .content .content-right .rig-bottom{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.box .content .content-right .rig-bottom .price{
+    margin: 60px 0 30px 0;
+    font-size: 18px;
+}
+.box .content .content-right .rig-bottom .but{
+    border: none;
+    width: 85px;
+    height: 40px;
+    font-size: 13px;
+    border-radius: 12px;
+    background-color: #F61815;
+    color: #fff;
+}
+.box .footer{
+    width: 80%;
+    height: 100px;
+    margin: 100px auto 0 auto;
+    border-top: 1px solid rgba(7,17,27,0.1);
+}
